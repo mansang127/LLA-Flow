@@ -44,6 +44,7 @@ SUM_FREQ = 100
 VAL_FREQ = 10000
 
 
+
 def sequence_loss(flow_preds, flow_gt, valid, gamma=0.8, max_flow=MAX_FLOW):
     """ Loss function defined over sequence of flow predictions """
 
